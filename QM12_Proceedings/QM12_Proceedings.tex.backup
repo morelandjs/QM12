@@ -1,0 +1,51 @@
+\documentclass[a4paper,10pt]{elsarticle}
+\usepackage[utf8x]{inputenc}
+
+%opening
+\title{Imprinting Quantum Fluctuations on  \\ Hydrodynamic Initial Conditions}
+\author{J. S. Moreland, Z. Qiu, U. Heinz}
+
+\begin{document}
+
+
+
+\begin{abstract}
+  Starting from the two-point covariance function derived in [1], we have developed a toy model to investigate the effect of gluonic 
+fluctuations on the transverse energy profile predicted by Color-Glass Condensate initial conditions. We find that the effect of these fluctuations
+on the eccentricity harmonics $\epsilon_{n}$ varies strongly with the correlation length and consequently the value of the fixed saturation momentum $Q_{s}$ 
+used in the M\"uller-Sch\"afer calculation. Using approximate values for the minimum and maximum saturation momenta probed at RHIC in central Au-Au collisions, 
+we estimate the increase in the eccentricity coefficients resulting from gluonic fluctuations is of order $10-20\%$ at RHIC in central collisions.
+
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}
+Hybrid models, which couple viscous hydrodynamics to a Boltzmann cascade, have been highly successfully in describing collective flow properties of 
+the quark-gluon plasma (QGP) and subsequent hadron resonance gas produced in relativistic heavy-ion collisions. The success of these simulations
+has generated accute interest in the hydrodynamic transport properties of the produced medium, specifically the QGP shear viscosity to entropy ratio $\eta/s$. 
+Phenomenological extractions of $\eta/s$ typically exploit the one-to-one mapping $\epsilon_{n}\leftrightarrow v_{n}$ between the initial state eccentricity harmonics $\epsilon_{n}$
+characterized by,
+\begin{equation}
+ \epsilon_{n} e^{i n \Phi_n}= - \frac{\int r ~\!dr ~\!d\phi ~\!r^2 ~\!e^{i n \phi}\rho(r,\phi)}{   \int r ~\!dr ~\!d\phi ~\!e^{i n \phi} ~\! \rho(r,\phi)}
+\end{equation}
+and the final state azimuthal flow harmonics $v_{n}$ characterized by,
+\begin{equation}
+ v_{n} e^{i n \Psi_n}=\frac{\int p_T ~\!dp_T ~\!d\phi_p ~\!e^{i n \phi_p}\frac{dN_{ch}}{d\eta p_T dp_T d\phi_p}}{\int p_T ~\!dp_T ~\!d\phi_p \frac{dN_{ch}}{d\eta p_T dp_T d\phi_p}}
+\end{equation}
+Uncertainties in the models used to compute the initial state eccentricity coefficients $\epsilon_n$ are currently the largest source of error in phenomenological extractions of $\eta/s$, and 
+stricter constraints on $\eta/s$ require more more realistic descriptions of the initial state geometry.
+
+\section{Event-by-event fluctuations}
+
+The importance of event-by-event fluctuations in the distribution of participant nucleons was first pointed out by Miller and Snellings.These fluctuations correctly explained
+the existence of odd flow harmonics $v_{2n+1}$ and the non-vanishing anisotropic flow detected in central Cu-Cu and Au-Au collisions $v_n | _{b=0} >0$.
+
+
+ Consideration of the complete set of flow 
+harmonics $\{v_2,...,v_n\}$ is important to accurately extract the QGP shear viscosity, as for fixed $\eta/s$ the flow harmonics $v_{n}$ are uniquely determined from the 
+eccentricity harmonics $\epsilon_n$ characterizing the initial state. Thus it is a necessary condition that hybrid simulations using a certain initial state model recreate not just, 
+for example, the elliptic flow  $v_2$, but also the the relative scaling of the anisotropic flow harmonics.
+
+\section{The importance of sub-nucleonic fluctuations}
+\end{document}
